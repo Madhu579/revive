@@ -203,4 +203,7 @@ i{
     .choice ul li{
         margin: 1px;
     }
+ .logo{
+        width:30px;
+ }
 }
