@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Your JavaScript code here
+
     const name1 = document.getElementById('n1');
     const na = document.getElementById('na');
     const email1=document.getElementById('eml');
