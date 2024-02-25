@@ -200,4 +200,7 @@ i{
         right: 0;
         top: 0;
     }
+    .choice ul li{
+        margin: 1px;
+    }
 }
