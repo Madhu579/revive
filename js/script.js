@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Your JavaScript code here
     const name1 = document.getElementById('n1');
     const na = document.getElementById('na');
     const email1=document.getElementById('eml');
@@ -17,6 +16,8 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     name1.addEventListener('click',()=>{
         name1.value=""
+        name1.style.color="black"
+        name1.style.border="1px solid white"
     });
     ebl.addEventListener('click',()=>{
         if(!email1.value.toLowerCase().match(
@@ -32,5 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     email1.addEventListener('click',()=>{
         email1.value=""
+        email1.style.color="black"
+            email1.style.border="1px solid white"
     })
 });
