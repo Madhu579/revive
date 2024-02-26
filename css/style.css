@@ -1,9 +1,4 @@
-.body{
- padding: 0px;
- margin:0px;
- box-sizing: border-box;
- height: fit-content;
-}
+
 body::-webkit-scrollbar{
     display: none;
 }
@@ -66,6 +61,14 @@ ul li{
 input{
     padding: 5px;
 }
+.hv a{
+    text-decoration: none;
+    color: #f9f9f9;
+}
+.hv:hover{
+    cursor: pointer;
+    color: #5bcee5;
+}
 button{
     text-decoration: none;
     border: none;
@@ -82,13 +85,6 @@ button:hover{
     height: fit-content;
     margin-left: auto;
     
-}
-a{
-    color: hsl(224, 93%, 58%);
-    
-}
-a:hover{
-   color: #08eaea;
 }
 .ill1 img{
     width: 300px;
@@ -151,7 +147,7 @@ h2{
     
 }
 p{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 .lk{
     display: flex;
@@ -166,7 +162,7 @@ p{
     display: block;
 }
 .lk ul li img{
-    width: 10px;
+    width: 14px;
     padding-right: 5px;
 }
 .nag{
@@ -180,9 +176,13 @@ i{
     text-align: center;
     padding: 3px;
 }
-.hv:hover{
+a:hover{
     color: #5bcee5;
     cursor: pointer;
+}
+.acc .content{
+    width: 100%;
+    padding: auto;
 }
 @media all and (max-width:600px){
     body{
