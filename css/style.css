@@ -183,6 +183,7 @@ a:hover{
 .acc .content{
     width: 100%;
     padding: auto;
+    margin: 3px;
 }
 @media all and (max-width:600px){
     body{
